@@ -1,0 +1,56 @@
+.home{
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.23), rgba(1, 0, 0, 0.83)),
+    url('../../Image/1.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+img:hover{
+    border:5px solid yellow;
+    border-radius: 8px;
+    
+
+}
+ @media  screen and (max-width:470px) {
+     .pics{
+         width:140px
+     }
+    
+} 
+@media  screen and (max-width:540px) {
+    .pics{
+        width: 165px;
+    }
+}
+@media screen and (max-width:414px) {
+    .pics{
+        width: 125px;
+        font-size: 14px;
+        border-radius: 8px;
+    }
+    .home{
+        height: 112vh;
+    }
+    
+}
+@media  screen and (max-width:375px) {
+    .pics{
+        width: 105px;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .home{
+        height: 125vh;
+    }
+}
+@media screen and (max-width:320px) {
+    .home{
+        height: 150vh;
+    }
+    .pics{
+        width: 90px;
+        height: 20px;
+    }
+    
+}

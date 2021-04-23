@@ -1,0 +1,32 @@
+ .book{
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.23), rgba(1, 0, 0, 0.83)),
+    url('../../Image/1.png');
+    background-size: cover;
+    height: 100vh;
+ }
+.forms{
+    box-shadow: 2px 2px 2px gray;
+    border: 1px solid gray;
+    height: auto;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+@media screen and (max-width:360px) {
+    .forms{
+        width: 290px;
+        margin: auto;
+    }
+    .book{
+        height: 130vh;
+    }
+}
+@media screen and (max-width:320px) {
+    .forms{
+        width: 260px;
+    }
+    .book{
+        height: 150vh;
+    }
+}
